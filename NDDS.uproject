@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.22",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "NDDS",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "NVUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "NVDataObject",
+			"Enabled": true
+		},
+		{
+			"Name": "NVSceneCapturer",
+			"Enabled": true
+		},
+		{
+			"Name": "DomainRandomizationDNN",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		}
+	]
+}
